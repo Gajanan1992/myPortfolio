@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Serif KR', sans-serif; }
+
+.container {
+  -webkit-box-shadow: 2px 0px 5px 1px #654;
+  box-shadow: 2px 0px 5px 1px #654; }
+
+.profile-pic img {
+  width: 100%;
+  display: block;
+  height: auto; }
+
+.wrapper, .container {
+  margin-top: 20px;
+  background-color: cyan; }
+
+.banner {
+  padding: 30px;
+  background-color: white; }
+  .banner h1 {
+    color: navy; }
+    .banner h1 span {
+      color: olive; }
+  .banner p {
+    margin-top: 15px;
+    text-align: justify; }
+
+.contacts .cont-item {
+  background-color: orange;
+  border-bottom: 1px solid white;
+  color: aliceblue;
+  font-size: 1em; }
+  .contacts .cont-item i {
+    padding: 2px;
+    margin: 5px 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 1.2em; }
+
+.personal, .skills {
+  margin: 10px 5px;
+  padding: 0px 5px; }
+  .personal h4, .skills h4 {
+    font-weight: 500; }
+
+.section .table {
+  background-color: white; }
+
+.social {
+  background-color: white;
+  padding: 20px;
+  text-align: center; }
+  .social h4 {
+    color: dimgrey;
+    font-size: 2em; }
+  .social ul, .social li {
+    margin-top: 10px;
+    list-style-type: none;
+    display: inline-block; }
+    .social ul a, .social li a {
+      font-size: 3em;
+      margin: 50px;
+      text-decoration: none; }
